@@ -44,7 +44,7 @@ namespace GradeBook.UserInterfaces
             else if (parts[3] == "ranked") { var gradeBook = new RankedGradeBook(name); }
             else { Console.WriteLine("{0} is not a supported type of gradebook, please try again.", parts[3]); }
             Console.WriteLine("Created gradebook {0}.", name);
-            GradeBookUserInterface.CommandLoop(gradeBook);
+            //GradeBookUserInterface.CommandLoop(gradeBook);
         }
 
         public static void LoadCommand(string command)
